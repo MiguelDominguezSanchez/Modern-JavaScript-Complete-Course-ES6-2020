@@ -28,3 +28,5 @@ Comment
 // document.write('Laurence Svekis')
 // document.getElementById('message').innerHTML = 'Laurence Svekis'
 console.log('Laurence Svekis')
+
+// - 6 Output Action Challenge -
