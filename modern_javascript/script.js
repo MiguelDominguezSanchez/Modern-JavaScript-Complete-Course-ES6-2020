@@ -33,9 +33,24 @@ Comment
 
 // - 7 JavaScript Variables -
 
-var myName = 'Laurence Smith'
+// var myName = 'Laurence Smith'
 
-alert(myName)
+// alert(myName)
+// document.write(myName + '')
+// document.getElementById('message').innerHTML = myName
+// console.log(myName)
+
+// - 8 Let and Const JavaScript -
+
+let myName = 'Laurence Svekis'
+
+myName = 'Laurence Smith'
+if (true) {
+	const myName = 'Tester'
+	console.log(myName)
+}
+
+// alert(myName)
 document.write(myName + '')
 document.getElementById('message').innerHTML = myName
 console.log(myName)
