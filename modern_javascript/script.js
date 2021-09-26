@@ -42,6 +42,7 @@ Comment
 
 // - 8 Let and Const JavaScript -
 
+/*
 let myName = 'Laurence Svekis'
 
 myName = 'Laurence Smith'
@@ -52,5 +53,28 @@ if (true) {
 
 // alert(myName)
 document.write(myName + '')
+document.getElementById('message').innerHTML = myName
+console.log(myName)
+*/
+
+// - 9 Data Types -
+
+let myName = 'Laurence' // String Data Type
+// myName = 'Svekis'
+// myName = undefined
+// myName = null
+// let myNum = 1000
+// let a, b, c, d
+// let boo = true // Boolean
+let boo = false // Boolean
+// console.log(typeof myName)
+// console.log(typeof myNum)
+// console.log(typeof a)
+// console.log(typeof boo)
+if (boo) {
+	console.log('Boo is set to TRUE')
+}
+// alert(myName);
+document.write(myName)
 document.getElementById('message').innerHTML = myName
 console.log(myName)
