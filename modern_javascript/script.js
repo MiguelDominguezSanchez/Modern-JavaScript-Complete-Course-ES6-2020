@@ -59,6 +59,7 @@ console.log(myName)
 
 // - 9 Data Types -
 
+/*
 let myName = 'Laurence' // String Data Type
 // myName = 'Svekis'
 // myName = undefined
@@ -78,3 +79,31 @@ if (boo) {
 document.write(myName)
 document.getElementById('message').innerHTML = myName
 console.log(myName)
+*/
+
+// - 10 Challenge JavaScript Prompt -
+/*
+let myName = prompt('What is your name?')
+let message = 'Welcome to the page, '
+let output = message + myName
+console.log(output)
+document.write(myName)
+document.getElementById('message').innerHTML = myName
+console.log(myName)
+*/
+
+/* my exercise
+let myName = prompt('What is your name?')
+let message = 'Welcome to the page, '
+let output = message + myName
+
+document.write(output)
+document.getElementById('message').innerHTML = myName
+console.log(myName)
+*/
+
+let person = prompt('Your Name?')
+let message = 'Welcome , ' + person
+console.log(message)
+document.write(message)
+document.getElementById('message').innerHTML = message
