@@ -21,3 +21,10 @@ alert('Hi Laurence Svekis')
 /*
 Multi Line
 Comment
+
+*/
+
+// - 5 Output Options JavaScript -
+// document.write('Laurence Svekis')
+// document.getElementById('message').innerHTML = 'Laurence Svekis'
+console.log('Laurence Svekis')
