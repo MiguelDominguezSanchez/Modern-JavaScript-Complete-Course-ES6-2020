@@ -139,6 +139,7 @@ document.getElementById('message').innerHTML = message
 
 // - 13 Type Conversion and Coercion -
 
+/*
 // let myStr = 'Hello '
 // let myStr = '100 '
 // let myStr = 'World '
@@ -154,3 +155,12 @@ myNum = String(myNum)
 console.log(myStr)
 console.log(typeof myStr)
 console.log(typeof myNum)
+*/
+
+// - 14 Type Challenge -
+
+let message = prompt('your number?')
+message = Number(message)
+let output = message + message
+console.log(output)
+console.log(typeof message)
