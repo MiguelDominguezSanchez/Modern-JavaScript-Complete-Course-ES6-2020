@@ -130,7 +130,27 @@ document.getElementById('message').innerHTML = message
 
 // - 12 Prompt Challenge -
 
+/*
 let question = 'What is your name?'
 let userName = prompt(question)
 let message = `Welcome, ${userName}`
 document.getElementById('message').innerHTML = message
+*/
+
+// - 13 Type Conversion and Coercion -
+
+// let myStr = 'Hello '
+// let myStr = '100 '
+// let myStr = 'World '
+let myStr = '1000'
+let myNum = 100
+// myStr = myStr + myStr
+myStr = Number(myStr)
+myStr = myStr + myNum
+myStr = myStr.toString()
+// coercion
+// myStr = Number(myStr)
+myNum = String(myNum)
+console.log(myStr)
+console.log(typeof myStr)
+console.log(typeof myNum)
