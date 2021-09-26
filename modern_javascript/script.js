@@ -27,6 +27,15 @@ Comment
 // - 5 Output Options JavaScript -
 // document.write('Laurence Svekis')
 // document.getElementById('message').innerHTML = 'Laurence Svekis'
-console.log('Laurence Svekis')
+// console.log('Laurence Svekis')
 
 // - 6 Output Action Challenge -
+
+// - 7 JavaScript Variables -
+
+var myName = 'Laurence Smith'
+
+alert(myName)
+document.write(myName + '')
+document.getElementById('message').innerHTML = myName
+console.log(myName)
