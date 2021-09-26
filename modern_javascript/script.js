@@ -159,8 +159,21 @@ console.log(typeof myNum)
 
 // - 14 Type Challenge -
 
+/*
 let message = prompt('your number?')
 message = Number(message)
 let output = message + message
 console.log(output)
 console.log(typeof message)
+*/
+
+// - 15 JavaScript Operators -
+let val1 = 5
+let val2 = 7
+let val3 = 9
+
+console.log(val2 * val1)
+console.log(val3 / 3)
+console.log(val3 % 3)
+console.log(val2 % 3)
+console.log(val1 % 3)
