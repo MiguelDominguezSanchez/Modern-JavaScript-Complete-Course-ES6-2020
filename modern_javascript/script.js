@@ -102,8 +102,26 @@ document.getElementById('message').innerHTML = myName
 console.log(myName)
 */
 
+/*
 let person = prompt('Your Name?')
 let message = 'Welcome , ' + person
+console.log(message)
+document.write(message)
+document.getElementById('message').innerHTML = message
+*/
+
+// - 11 Template Literals -
+
+let message = "It's my Page"
+message = "It's my Page"
+let output = message + ' Hello World '
+let person = 'Laurence Svekis'
+let output = message + ' "Hello" World ' + person
+
+message = `It's my Page. ${person}
+
+"Hello World"`
+
 console.log(message)
 document.write(message)
 document.getElementById('message').innerHTML = message
