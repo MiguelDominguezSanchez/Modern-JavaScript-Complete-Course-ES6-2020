@@ -521,3 +521,57 @@ console.log(a > b && b < a) // false
 console.log(d > b || b > a) // true
 console.log(d > b && b < a) // false
 */
+
+// - 23 JavaScript Switch Statement -
+
+/*
+MDN
+switch (expresión) {
+  case valor1:
+    //Declaraciones ejecutadas cuando el resultado de expresión coincide con el valor1
+    [break;]
+  case valor2:
+    //Declaraciones ejecutadas cuando el resultado de expresión coincide con el valor2
+    [break;]
+  ...
+  case valorN:
+    //Declaraciones ejecutadas cuando el resultado de expresión coincide con valorN
+    [break;]
+  default:
+    //Declaraciones ejecutadas cuando ninguno de los valores coincide con el valor de la expresión
+    [break;]
+}
+*/
+
+/*
+// let today = 3
+let today = prompt('pick a number')
+today = Number(today)
+let output
+switch (today) {
+	case 0:
+		output = 'Sunday'
+		break
+	case 1:
+		output = 'Monday'
+		break
+	case 2:
+		output = 'Tuesday'
+		break
+	case 3:
+		output = 'Wednesday'
+		break
+	case 4:
+		output = 'Thursday'
+		break
+	case 5:
+		output = 'Friday'
+	case 6:
+		output = 'Saturday'
+		break
+	default:
+		output = 'Not found'
+}
+
+document.getElementById('message').innerHTML = `Today  is ${output}`
+*/
