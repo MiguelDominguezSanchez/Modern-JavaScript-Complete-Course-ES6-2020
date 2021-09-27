@@ -275,9 +275,80 @@ if (val == val) {
 // 	console.log('was true')
 // }
 
-let val1 = 5
-let val2 = 10
-let val3 = '5'
-if (val1 >= val2) {
-	console.log('was true')
+// let val1 = 5
+// let val2 = 10
+// let val3 = '5'
+// if (val1 >= val2) {
+// 	console.log('was true')
+// }
+
+// - 18 Truthy and Falsey -
+
+// let val = undefined
+// if (val) {
+// 	console.log('was true')
+// }
+
+// if (!val) {
+// 	console.log('its False')
+// }
+
+// let val = 1
+// if (val) {
+// 	console.log('was true')
+// }
+
+// if (!val) {
+// 	console.log('its False')
+// }
+
+// - 19 Condition Statements -
+
+// let val = 101
+// message = 'nothing'
+// if (val == 100) {
+// 	message = 'yes it was true'
+// } else {
+// 	message = 'it was FALSE'
+// }
+
+// document.getElementById('message').innerHTML = message
+
+// let val = 100
+// let message = 'nothing'
+// if (val > 100) {
+// 	message = 'Greater than 100'
+// } else if (val == 100) {
+// 	message = 'was equal to 100'
+// } else {
+// 	message = 'Less than 100'
+// }
+
+// document.getElementById('message').innerHTML = message
+
+// let val = 100
+// let num = 50
+// let message = 'nothing'
+// if (val > num) {
+// 	message = `${val} was greater than ${num}`
+// } else if (val == num) {
+// 	message = `${val} was equal to ${num}`
+// } else {
+// 	message = `${val} is less than ${num}`
+// }
+
+// document.getElementById('message').innerHTML = message
+
+let val = prompt('what number?')
+val = Number(val)
+let num = 100
+let message = 'nothing'
+if (val > num) {
+	message = `${val} was greater than ${num}`
+} else if (val == num) {
+	message = `${val} was equal to ${num}`
+} else {
+	message = `${val} is less than ${num}`
 }
+
+document.getElementById('message').innerHTML = message
