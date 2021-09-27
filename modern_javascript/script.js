@@ -779,6 +779,7 @@ let val1 = adder(4, 10)
 console.log(val1)
 */
 
+/*
 function add(a, b) {
 	return a + b
 }
@@ -795,3 +796,56 @@ console.log(add(5, 5))
 console.log(subtract(5, 5))
 console.log(multiply(5, 5))
 console.log(divide(5, 5))
+*/
+
+// - 28 Function Expression -
+
+/*
+let val1 = funDec(100)
+console.log(val1)
+function funDec(a) {
+	return a * a
+}
+
+let val2 = funExp(100)
+console.log(val2)
+const funExp = function (a) {
+	return a * a
+}
+*/
+
+/*
+const funExp = function (a) {
+	return a * a
+}
+let val2 = funExp(100)
+console.log(val2)
+
+console.log(funExp)
+// console.log((funExp = 100)) // script.js:824 Uncaught TypeError: Assignment to constant variable.
+*/
+
+/*
+let funExp = function (a) {
+	return a * a
+}
+let val2 = funExp(100)
+console.log(val2)
+
+console.log(funExp)
+// console.log((funExp = 100))
+// console.log(funExp)
+// console.log(typeof funExp) // number
+console.log(typeof funExp) // function
+*/
+
+/*
+let val1 = function (num) {
+	return num + 5
+}
+function val2(num) {
+	return num + 5
+}
+console.log(val1(10))
+console.log(val2(10))
+*/
