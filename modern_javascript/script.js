@@ -694,3 +694,63 @@ test1()
 console.log(`${val}${num}`) // 3
 test1() // 4
 */
+
+// - 26 JavaScript Function Parameters -
+
+/*
+let a = 5
+let b = 10
+
+function add(a) {
+	console.log(a)
+}
+
+add(a)
+
+console.log(add(50))
+console.log(a)
+*/
+
+// let a = 5
+// let b = 10
+// let total = 0
+
+// function add(val1) {
+// 	total += val1
+// 	console.log(val1)
+// 	console.log(total)
+// }
+
+// add(a)
+
+// console.log(add(500))
+// console.log(total)
+
+// let a = 5
+// let b = 10
+// let total = 0
+
+// function add(val1, val2) {
+// 	total += val1 * val2
+// 	console.log(total)
+// }
+
+// add(a, b)
+// add(50, 40)
+
+/*
+let a = 5
+let b = 10
+let total = 0
+
+function add(val1 = 1, val2 = 1) {
+	// val2 = val2 || 1
+	// val2 = val2 == undefined ? 0 : val2
+	console.log(val2)
+	total += val1 * val2
+	console.log(total)
+}
+
+add(0, 0)
+add(50)
+*/
