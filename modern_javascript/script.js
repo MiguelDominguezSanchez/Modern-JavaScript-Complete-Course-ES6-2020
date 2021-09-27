@@ -1206,6 +1206,7 @@ console.log(car1.details())
 
 // - 39 Create JavaScript Objects -
 
+/*
 const carTemp = function (make, model, price, year, color) {
 	this.make = make
 	this.model = model
@@ -1227,3 +1228,34 @@ console.log(car3)
 
 car1.color = 'Black'
 console.log(car3)
+*/
+
+// - 40 JavaScript Arrays -
+
+/*
+const person = []
+person[0] = 'Laurence'
+person[1] = 'Svekis'
+person[10] = 'Course'
+console.log(person)
+console.log(person[5])
+*/
+
+/*
+const person = ['Mike', 'John']
+console.log(person.length)
+person[2] = 'Laurence'
+person[3] = 'Svekis'
+person[10] = 'Course'
+console.log(person)
+console.log(person[0])
+console.log(person[3])
+console.log(person.length)
+
+const people = new Array('test', 'Mike', 'Linda')
+console.log(people)
+const people1 = ['test', 'Mike', 'Linda', 100, false, null, {}, ['one', 'two']]
+console.log(people1)
+
+document.getElementById('message').innerHTML = `${person[2]} ${person[3]}`
+*/
