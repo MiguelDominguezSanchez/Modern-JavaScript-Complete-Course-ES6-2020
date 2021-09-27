@@ -1080,6 +1080,7 @@ console.log(test3(10))
 
 // - 35 JavaScript Objects -
 
+/*
 const person = { first: 'Laurence' }
 person.last = 'Svekis'
 person.age = 40
@@ -1099,3 +1100,34 @@ person.count2 = 'two'
 console.log(person['count' + count])
 count++
 console.log(person['count' + count])
+*/
+
+// - 36 JavaScript Objects Part 2 -
+
+/*
+const person = {}
+person['First Name'] = 'Laurence'
+// console.log(person)
+// console.log(person.First Name) // Uncaught SyntaxError: missing ) after argument list
+person.talking = function () {
+	return 'I`m talking now'
+}
+const val = person.talking()
+console.log(val) // I`m talking now
+
+person.first = 'Laurence'
+person.last = 'Svekis'
+person.full = function () {
+	console.log(this)
+	return `${this.first} ${this.last}`
+}
+person.welcome = function (personName) {
+	return `Hello, ${personName}`
+}
+
+// console.log(person.full)
+
+console.log(person.full())
+console.log(person.welcome('Laurence'))
+console.log(person.welcome(person.full()))
+*/
