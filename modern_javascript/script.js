@@ -216,3 +216,68 @@ val
 val*=val
 25
 */
+
+// - 17 JavaScript Comparison Operators -
+
+/*
+let val = 5
+// if (true) {
+// 	console.log('was true')
+// }
+
+// if (5 == 5) {
+// 	console.log('was true')
+// }
+
+if (val == val) {
+	console.log('was true')
+}
+*/
+
+// let val1 = 5
+// let val2 = 10
+// if (val1 == val2) {
+// 	console.log('was true')
+// }
+
+// let val1 = 5
+// let val2 = 10
+// let val3 = '5'
+// if (val1 == val3) {
+// 	console.log('was true')
+// }
+
+// let val1 = 5
+// let val2 = 10
+// let val3 = '5'
+// if (val1 === val3) {
+// 	console.log('was true')
+// }
+
+// let val1 = 5
+// let val2 = 10
+// let val3 = '5'
+// if (val1 != val2) {
+// 	console.log('was true')
+// }
+
+// let val1 = 5
+// let val2 = 10
+// let val3 = '5'
+// if (val1 !== val3) {
+// 	console.log('was true')
+// }
+
+// let val1 = 5
+// let val2 = 10
+// let val3 = '5'
+// if (val1 > val2) {
+// 	console.log('was true')
+// }
+
+let val1 = 5
+let val2 = 10
+let val3 = '5'
+if (val1 >= val2) {
+	console.log('was true')
+}
