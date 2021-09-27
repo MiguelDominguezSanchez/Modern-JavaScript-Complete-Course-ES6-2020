@@ -983,3 +983,31 @@ const secret2 = function (val) {
 let secretVal = secret2('Laurence')
 console.log(secretVal())
 */
+
+// - 31 Function Recursion -
+
+/*
+let start = 100
+function loop(val) {
+	console.log(val)
+	if (val < 1) {
+		return
+	}
+	loop(val - 1)
+}
+
+// console.log(loop(5))
+
+// console.log(loop(50))
+
+function loop1(val) {
+	console.log(val)
+	if (val > 0) {
+		val--
+		loop1(val)
+	}
+	return 'end'
+}
+
+loop1(5)
+*/
