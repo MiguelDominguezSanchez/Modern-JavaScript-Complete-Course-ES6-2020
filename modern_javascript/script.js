@@ -849,3 +849,112 @@ function val2(num) {
 console.log(val1(10))
 console.log(val2(10))
 */
+
+// - 29 Function Scope -
+
+/*
+let total = 0
+
+adder()
+console.log(total)
+function adder() {
+	total++
+}
+*/
+
+/*
+function cal(a, b) {
+	mul(a, b)
+	add(a, b)
+	subt(a, b)
+
+	function mul(a, b) {
+		console.log(a * b)
+	}
+	function add(a, b) {
+		console.log(a + b)
+	}
+	function subt(a, b) {
+		console.log(a - b)
+	}
+	return total
+}
+
+console.log(cal(5, 5))
+*/
+
+/*
+console.log(cal(5, 10))
+
+function cal(a, b) {
+	let total = 0
+	total = +mul(a, b)
+	total = +add(a, b)
+	total = +subt(a, b)
+
+	function mul(a, b) {
+		return a * b
+	}
+	function add(a, b) {
+		return a + b
+	}
+	function subt(a, b) {
+		return a - b
+	}
+	return total
+}
+*/
+
+/*
+console.log(cal(5, 10))
+
+function cal(a, b) {
+	let total = 0
+	total += mul(a, b)
+	total += add(a, b)
+	total = total + subt(a, b)
+
+	function mul(a, b) {
+		return a * b
+	}
+	function add(a, b) {
+		return a + b
+	}
+	function subt(a, b) {
+		return a - b
+	}
+	return total
+}
+*/
+
+/*
+let total = 0
+let a = 1000
+let b = 1000
+
+adder()
+console.log(total)
+function adder() {
+	total++
+}
+
+console.log(cal(5, 10))
+
+function cal(a, b) {
+	let total = 0
+	total += mul()
+	total += add()
+	total = total + subt()
+
+	function mul(a, b) {
+		return a * b
+	}
+	function add(a, b) {
+		return a + b
+	}
+	function subt(a, b) {
+		return a - b
+	}
+	return total
+}
+*/
