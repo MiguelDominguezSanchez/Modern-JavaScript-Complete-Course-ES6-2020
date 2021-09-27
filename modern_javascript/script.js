@@ -1058,3 +1058,22 @@ console.log(val)
 	console.log(`My name is ${val}`)
 })('Laurence')
 */
+
+// - 34 Arrow Functions JavaScript -s
+
+/*
+var test1 = function (x) {
+	return x * 5
+}
+function test3(x) {
+	return x * 5
+}
+const test2 = (x) => {
+	console.log(x)
+	return x * 5
+}
+
+console.log(test1(10))
+console.log(test2(10))
+console.log(test3(10))
+*/
