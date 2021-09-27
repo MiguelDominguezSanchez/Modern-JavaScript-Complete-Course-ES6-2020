@@ -1165,3 +1165,41 @@ console.log(car)
 console.log(car.driving(400))
 console.log(car.stats())
 */
+
+// - 38 JavaScript Objects Part 3 -
+
+/*
+const car1 = {
+	make: 'Ford',
+	model: 'Mustang',
+	price: '25000',
+	year: 2021,
+	color: 'red',
+	details: function () {
+		return `${this.make} ${this.model} ${this.price} ${this.year} ${this.color}`
+	},
+}
+
+// console.log(car1)
+// console.log(car1.details)
+
+const car2 = car1
+car2.color = 'blue'
+car2.year = 2022
+console.log(car1)
+console.log(car2)
+console.log(car1.details())
+console.log(car2.details())
+
+// car1.make = 'TEST'
+// console.log(car2)
+// console.log(car1)
+
+const car3 = Object.assign({}, car1)
+car3.color = 'Green'
+console.log(car1)
+console.log(car2)
+console.log(car3)
+console.log(car3.details())
+console.log(car1.details())
+*/
