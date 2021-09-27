@@ -958,3 +958,28 @@ function cal(a, b) {
 	return total
 }
 */
+
+// - 30 Function closures -
+/*
+let val = 1000
+
+function test() {
+	const secret = 12345
+	return function inner() {
+		console.log(`Secret number ${secret}`)
+	}
+}
+
+const output = test()
+output()
+
+const secret2 = function (val) {
+	const namez = function () {
+		return val
+	}
+	return namez
+}
+
+let secretVal = secret2('Laurence')
+console.log(secretVal())
+*/
