@@ -1077,3 +1077,25 @@ console.log(test1(10))
 console.log(test2(10))
 console.log(test3(10))
 */
+
+// - 35 JavaScript Objects -
+
+const person = { first: 'Laurence' }
+person.last = 'Svekis'
+person.age = 40
+person.helpful = true
+console.log(person)
+person.first = 'John'
+console.log(person)
+// person = 'hello'
+person['first'] = 'Lisa'
+console.log(person)
+let val = 'first'
+person[val] = 'Mike'
+console.log(person)
+let count = 1
+person.count1 = 'one'
+person.count2 = 'two'
+console.log(person['count' + count])
+count++
+console.log(person['count' + count])
