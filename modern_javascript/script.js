@@ -1203,3 +1203,27 @@ console.log(car3)
 console.log(car3.details())
 console.log(car1.details())
 */
+
+// - 39 Create JavaScript Objects -
+
+const carTemp = function (make, model, price, year, color) {
+	this.make = make
+	this.model = model
+	this.price = price
+	this.year = year
+	this.color = color
+	this.details = function () {
+		return `${this.make} ${this.model} ${this.price} ${this.year} ${this.color}`
+	}
+}
+
+const car1 = new carTemp('Ford', 'Mustang', 30000, 2020, 'Red')
+console.log(car1)
+// console.log(car1.details())
+const car2 = new carTemp('Honda', 'Civic', 20000, 2021, 'Blue')
+console.log(car2)
+const car3 = new carTemp('Chev', 'Corvette', 40000, 2022, 'Green')
+console.log(car3)
+
+car1.color = 'Black'
+console.log(car3)
