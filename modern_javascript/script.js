@@ -1,3 +1,5 @@
+// https://developer.mozilla.org/es/docs/Web/JavaScript
+
 // - 2 Writing JavaScript -
 
 /*
@@ -168,12 +170,49 @@ console.log(typeof message)
 */
 
 // - 15 JavaScript Operators -
+/*
 let val1 = 5
 let val2 = 7
 let val3 = 9
 
+// console.log(val2 - val1)
 console.log(val2 * val1)
 console.log(val3 / 3)
 console.log(val3 % 3)
 console.log(val2 % 3)
 console.log(val1 % 3)
+*/
+
+// - 16 JavaScript Assignment Operators -
+
+// let val = 5
+// val *= 5
+
+/*
+console browser
+val 
+25
+
+val = val * 5;
+125
+
+val
+125
+*/
+
+/*
+val -= 100
+25
+
+val /= 5
+5
+
+val * val
+25
+
+val
+5
+
+val*=val
+25
+*/
