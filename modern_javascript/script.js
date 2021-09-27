@@ -501,3 +501,23 @@ console.log(message)
 // let check = val % 2 ? `Odd` : `Even`
 // check += `${val} is ${check}`
 // console.log(check)
+
+// - 22 Logical Operators -
+
+// console.log(5 > 3 && 10 < 20) // true
+// console.log(5 > 3 && 10 > 20) // false
+// console.log(5 > 3 || 10 > 20) // true
+// console.log(5 > 3 || 10 > 20 || 5 > 10) // true
+// console.log((5 > 3 && 10 > 20) || 5 > 10) // false
+// console.log((5 > 3 && 10 > 20) || 5 < 10) // true
+
+/*
+let a = 5
+let b = 10
+let c = 20
+let d = 30
+console.log(a > b || b < a) // false
+console.log(a > b && b < a) // false
+console.log(d > b || b > a) // true
+console.log(d > b && b < a) // false
+*/
