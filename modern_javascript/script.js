@@ -630,3 +630,67 @@ switch (person) {
 }
 document.getElementById('message').innerHTML = message
 */
+
+// - 25 JavaScript Functions -
+
+/*
+let val = 'test'
+
+function test1() {
+	let val = 'test1'
+	console.log(val) // 2
+}
+console.log(val) // 1
+test1()
+console.log(val) // 3
+test1() // 4
+*/
+
+/*
+let val = 'test'
+
+function test1() {
+	val = 'test1'
+	console.log(val) // 2
+}
+console.log(val) // 1
+test1()
+console.log(val) // 3
+test1() // 4
+*/
+
+// let val = 'test'
+// let num = 0
+
+// function test1() {
+// 	num++
+// 	// val = 'test1'
+// 	console.log(`${val}${num}`) // 2
+// }
+
+// console.log(`${val}${num}`) // 1
+// test1()
+// console.log(`${val}${num}`) // 3
+// test1() // 4
+
+/*
+let val = 'test'
+let num = 0
+
+function test1() {
+	add()
+	// val = 'test1'
+	console.log(`${val}${num}`) // 2
+}
+
+function add() {
+	num++
+}
+add()
+add()
+add()
+console.log(`${val}${num}`) // 1
+test1()
+console.log(`${val}${num}`) // 3
+test1() // 4
+*/
