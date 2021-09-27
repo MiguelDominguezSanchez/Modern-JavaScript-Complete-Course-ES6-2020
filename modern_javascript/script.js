@@ -1259,3 +1259,26 @@ console.log(people1)
 
 document.getElementById('message').innerHTML = `${person[2]} ${person[3]}`
 */
+
+// - 41 Values in the Array -
+
+const people = ['Mike', 'John', 'Laurence']
+const people1 = people
+console.log(people)
+console.log(people1)
+people1[2] = 'Svekis'
+people[2] = 'Jane'
+console.log(people)
+console.log(people1)
+
+const people2 = [people]
+people2[2] = 'Laurence'
+console.log(people)
+console.log(people2)
+
+const people3 = Array.from(people)
+people3[2] = 'Laurence'
+console.log(people)
+console.log(people2)
+
+console.log(typeof people)
