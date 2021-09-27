@@ -1036,3 +1036,25 @@ function output(mes) {
 	document.getElementById('message').innerHTML = mes
 }
 */
+
+// - 33 IIFE functions -
+
+/*
+let val = '1000'
+
+;(function () {
+	console.log('hello')
+	let val = '100' // local scope
+})()
+
+let result = (function () {
+	let val = 'Laurence'
+	return val
+})()
+console.log(result)
+console.log(val)
+
+;(function (val) {
+	console.log(`My name is ${val}`)
+})('Laurence')
+*/
