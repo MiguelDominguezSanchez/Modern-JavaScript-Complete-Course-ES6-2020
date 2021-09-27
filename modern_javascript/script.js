@@ -575,3 +575,58 @@ switch (today) {
 
 document.getElementById('message').innerHTML = `Today  is ${output}`
 */
+
+// - 24 Switch Friends Challenge -
+
+// let person = 'Laurence'
+
+// Enter a name?
+
+// Laurence
+// John
+
+// is my friend
+// I don't know ${other}
+
+/*
+my exercise attempt response
+let person = prompt('Enter a name?')
+if (person === Laurence || John || Azucena) {
+	person = friend
+} else {
+	person = other
+}
+
+let output
+switch (friend) {
+	case Laurence:
+		output = 'Laurence is my friend'
+		break
+	case John:
+		output = 'John is my friend'
+		break
+	case Azucena:
+		output = 'Azucena is my friend'
+		break
+	default:
+		output = `${other} id not my friend`
+}
+
+document.getElementById('message').innerHTML = `${output}`
+*/
+
+/*
+let person = prompt('Enter a name?')
+let message
+switch (person) {
+	case 'John':
+	case 'Larry':
+	case 'Jane':
+	case 'Laurence':
+		message = `${person} is my friend`
+		break
+	default:
+		message = `I don't know ${person}`
+}
+document.getElementById('message').innerHTML = message
+*/
