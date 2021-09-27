@@ -1131,3 +1131,37 @@ console.log(person.full())
 console.log(person.welcome('Laurence'))
 console.log(person.welcome(person.full()))
 */
+
+// - 37 Create a Car Object Challenge -
+
+/*
+const car = {}
+car.color = 'red'
+car.make = 'Ford'
+car.model = 'Mustang'
+car.year = 2015
+car.value = 40000
+car.mileage = 0
+car.driving = function (num = 100) {
+	this.mileage += num
+	this.value -= this.mileage / 10
+	console.log('driving having fun')
+}
+car.stats = function () {
+	this.value -= this.mileage
+	return `${this.color} ${this.make} ${this.model} ${this.value}`
+}
+
+car.driving(1000)
+console.log(car.stats())
+let carStat = car.stats()
+car.driving(1000)
+car.driving(5000)
+car.driving(5000)
+car.driving(1000)
+console.log(carStat)
+console.log(car.stats())
+console.log(car)
+console.log(car.driving(400))
+console.log(car.stats())
+*/
