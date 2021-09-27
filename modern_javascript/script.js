@@ -339,16 +339,165 @@ if (val == val) {
 
 // document.getElementById('message').innerHTML = message
 
-let val = prompt('what number?')
-val = Number(val)
-let num = 100
-let message = 'nothing'
-if (val > num) {
-	message = `${val} was greater than ${num}`
-} else if (val == num) {
-	message = `${val} was equal to ${num}`
-} else {
-	message = `${val} is less than ${num}`
-}
+// let val = prompt('what number?')
+// val = Number(val)
+// let num = 100
+// let message = 'nothing'
+// if (val > num) {
+// 	message = `${val} was greater than ${num}`
+// } else if (val == num) {
+// 	message = `${val} was equal to ${num}`
+// } else {
+// 	message = `${val} is less than ${num}`
+// }
 
-document.getElementById('message').innerHTML = message
+// document.getElementById('message').innerHTML = message
+
+// - 20 Condition Challenge -
+
+// Our application is gonna act as a bouncer of a night club.
+// It is gonna check to see if the user, is able to enter the night club.
+// So they have to be over 18 to enter in the night club, and then they have  to be over 21 in order to drink. If they are under 18 then there is not gonna get the night entry into the night club
+
+// How old are you?
+
+// Enter a number
+
+// You are > 18 && < 21 and allowed to come but NOT drink.
+
+// You are > 21 and allowed to come in and drink
+
+// You are < 18 not allowed in. Sorry you are only ${age}
+
+// // Own attempt exercise
+
+// let age = prompt('How old are you?')
+// if(age === Number){
+// 	// response
+// } else if (age !== Number) {
+// 	console.log('Enter a number')
+// } else {
+
+// }
+
+// var lessThanEighteen = (age < 18)
+// var equalThanEighteen = (age === 18)
+// var moreThanEighteen = (age > 18)
+// var lessThanTwentyOne = (age < 21)
+// var moreThanTwentyOne = (age > 21)
+
+// let age = prompt('How old are you?')
+// if(age === Number){
+
+// 	if(`${lessThanEighteen}`){
+
+// 		console.log(`You are less Than Eighteen and not allowed in. Sorry you are only ${age}`)
+
+// 	} else if(`${equalThanEighteen} && ${lessThanTwentyOne}`){
+
+// 		console.log(`You are ${age} and allowed to come but NOT drink.`)
+
+// 	} else if (moreThanTwentyOne){
+
+// 	}
+
+// 		console.log(`You are ${lessThanEighteen} and not allowed in. Sorry you are only ${age}`)
+
+// var lessThanEighteen = (age < 18)
+// var equalThanEighteen = (age === 18)
+// var moreThanEighteen = (age > 18)
+// var lessThanTwentyOne = (age < 21)
+// var moreThanTwentyOne = (age > 21)
+
+// let age = prompt('How old are you?')
+// if(age === Number){
+
+// 	if(lessThanEighteen){
+
+// 		console.log(`You are less Than Eighteen and not allowed in. Sorry you are only ${age}`)
+
+// 	} else if(equalThanEighteen && lessThanTwentyOne){
+
+// 		console.log(`You are ${age} and allowed to come but NOT drink.`)
+
+// 	} else{		console.log(`You are ${age} and allowed to come in and drink`) }
+
+// var lessThanEighteen = (age < 18)
+// var equalThanEighteen = (age === 18)
+// var moreThanEighteen = (age > 18)
+// var lessThanTwentyOne = (age < 21)
+// var moreThanTwentyOne = (age > 21)
+
+// let age = prompt('How old are you?')
+// if(age === Number){
+
+// 	if(lessThanEighteen)
+
+// 		console.log(`You are less Than Eighteen and not allowed in. Sorry you are only ${age}`)
+
+// 	else
+// 	if(equalThanEighteen && lessThanTwentyOne)
+
+// 		console.log(`You are ${age} and allowed to come but NOT drink.`)
+
+// 	else
+// 		console.log(`You are ${age} and allowed to come in and drink`)
+
+// Exercise solution
+
+// let age = prompt('How old are you?')
+// age = Number(age)
+// if (!age) {
+// 	age = prompt('Enter a Number?')
+// }
+// let message
+// if (age >= 21) {
+// 	message = `You are ${age} and allowed to come in and drink.`
+// } else if (age >= 18) {
+// 	message = `You are ${age} and allowed to come in but NOT drink.`
+// } else {
+// 	message = `You are NOT allowed in. Sorry you are only ${age}.`
+// }
+
+// document.getElementById('message').innerHTML = message
+
+// - 21 Ternary Operator -
+
+/*
+let val = 100
+*/
+/*
+let message
+if (val > 100) {
+	message = `${val} was greater than 100`
+} else {
+	message = `${val} was LESS or Equal than 100`
+}
+*/
+/*
+let message =
+	val > 100
+		? `${val} was greater than 100`
+		: `${val} was LESS or Equal than 100`
+console.log(message)
+*/
+
+// if the output of the value is gonna be odd or even
+
+// my exercise response
+
+// let val = 100
+// let message = val % 2 === 0 ? `${val} is odd` : `${val} is even`
+// console.log(message)
+
+// let val = 101
+// let message = val % 2 === 0 ? `${val} is odd` : `${val} is even`
+// console.log(message)
+
+// Laurence exercise response
+
+// let val = 101
+
+// let check = val % 2 ? `Odd` : `Even`
+// check += `${val} is ${check}`
+// console.log(check)
