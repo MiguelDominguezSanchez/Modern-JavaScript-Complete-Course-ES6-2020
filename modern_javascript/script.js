@@ -1746,3 +1746,22 @@ listItems.forEach((ele, ind) => {
 const highlight = document.querySelectorAll('.highlight')
 console.log(highlight)
 */
+
+// - 7 Attribute Updates -
+
+const val = 'https://dummyimage.com/600x400/f2ff00/0011ff&text='
+const imgs = document.querySelectorAll('img')
+imgs.forEach((ele) => {
+	let val1 = ele.hasAttribute('class') ? 'Dummy' : 'JavaScript'
+	if (val1 == 'Dummy') {
+		val1 = ele.getAttribute('class')
+	}
+	ele.setAttribute('src', val + val1)
+})
+
+const urls = document.querySelectorAll('a')
+urls.forEach((ele) => {
+	console.log(ele.getAttribute('href'))
+	ele.setAttribute('href', 'httP://www.discoveryvip.com')
+	ele.setAttribute('target', '_blank')
+})
