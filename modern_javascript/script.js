@@ -1622,3 +1622,21 @@ future.getFullYear
 // - JavaScript DOM Introduction -
 
 // - 1 Welcome to JavaScript DOM -
+
+// - 2 Select and Element JavaScript DOM -
+
+// console.dir(document)
+// console.log(document.URL)
+
+/*
+console.log(document.firstElementChild.firstElementChild)
+console.log(
+	document.firstElementChild.lastElementChild.firstElementChild.innerHTML
+)
+
+document.getElementById('message').style.background = 'red'
+
+const mainH1 = document.getElementById('message')
+mainH1.style.backgroundColor = 'blue'
+mainH1.innerHTML = 'Hello World'
+*/
