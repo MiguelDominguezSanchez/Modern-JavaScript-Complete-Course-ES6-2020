@@ -1494,3 +1494,127 @@ console.log(myArr1)
 const myArr2 = myArr.map((ele) => ele * 2)
 console.log(myArr2)
 */
+
+// - 49 JavaScript Math -
+/*
+console.log(Math.PI)
+console.log(Math.ceil(5.7))
+console.log(Math.floor(5.7))
+console.log(Math.round(5.7))
+console.log(Math.random())
+console.log(Math.random() * 10)
+console.log(Math.random() * 11)
+
+console.log(Math.floor(Math.random() * 11)) // 0-10
+console.log(Math.floor(Math.random() * 10) + 1) // 1-10
+console.log(Math.floor(Math.random() * 100) + 1) // 1-10
+*/
+
+// Create a function that whenever is run.
+// It is gonna a generate a random number
+// And also create a loop that is gonna iterate,
+// and it is gonna generate a hundred random numbers.
+
+/*
+Failed attempt my exercise
+
+let randomNumber = () => {
+	return Math.floor(Math.random() * 10)
+}
+
+console.log(randomNumber())
+
+// const myObj = { first: 'Laurence', last: 'Svekis', age: 30 }
+
+// for (let prop in myObj) {
+// 	console.log(prop)
+// 	console.log(myObj[prop])
+// }
+
+// const people3 = people.toString()
+// console.log(people3)
+
+const numberObj = randomNumber.toString()
+console.log(numberObj)
+
+// const numberObj = {}
+
+for (let prop in numberObj) {
+	console.log(numberObj[prop])
+}
+
+*/
+
+// let randomNumber = () => {
+// 	return Math.floor(Math.random() * 10)
+// }
+
+// console.log(randomNumber())
+
+// for (let x = 0; x <= 15; x++) {
+// 	console.log(x)
+// }
+
+// Laurence exercise solution
+
+/*
+for (let x = 0; x < 100; x++) {
+	console.log(ranNum(1, 100))
+}
+function ranNum(min, max) {
+	return Math.floor(Math.random() * (max - min + 1)) + min
+}
+*/
+
+// - 50 JavaScript Date -
+
+/*
+let today = new Date()
+let future = new Date(2025, 5, 15)
+console.log(future)
+// console.log(today)
+// console.log(Date())
+console.log(future.getDay())
+console.log(future.setMonth(7))
+console.log(future.getDay())
+*/
+
+// let today = new Date()
+// let future = new Date(2025, 5, 15)
+// console.log(future)
+// let day = future.getDate()
+// let month = future.getMonth() + 1
+// let year = future.getFullYear()
+// let myDate = `MM ${month} / DD ${day} / YY ${year}`
+
+// document.getElementById('message').innerHTML = myDate
+// future.getFullYear
+// console.log(future.getFullYear())
+// console.log(future.getYear())
+
+/*
+let today = new Date()
+let future = new Date(2025, 5, 15)
+console.log(future)
+var months = [
+	'January',
+	'February',
+	'March',
+	'April',
+	'May',
+	'June',
+	'July',
+	'August',
+	'September',
+	'October',
+	'November',
+	'December',
+]
+let day = future.getDate()
+let month = future.getMonth()
+let year = future.getFullYear()
+let myDate = `${months[month]} ${day} ${year}`
+
+document.getElementById('message').innerHTML = myDate
+future.getFullYear
+*/
