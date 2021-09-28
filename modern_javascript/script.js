@@ -1659,3 +1659,40 @@ console.log(val2)
 const val3 = document.querySelector('.highlight')
 console.log(val3)
 */
+
+// - 4 Element QuerySelectorAll -
+
+/*
+const val1 = document.querySelectorAll('li')
+console.log(val1)
+const val2 = document.querySelectorAll('.highlight')
+console.log(val2)
+for (let x = 0; x < val2.length; x++) {
+	console.log(val2[x])
+	val2[x].textContent = `UPDATED ${x}`
+}
+*/
+
+/*
+Challenge:
+Create a for loop to loop through the nodelist,
+and update the content.
+
+And ideally select from the list items,
+and update the list items,
+match, one, two, three, four 
+or however the number of the list items there are,
+and then, just output the value of the list item in some text.
+*/
+
+/*
+const val = document.querySelectorAll('li')
+for (let x = 0; x < val.length; x++) {
+	val[x].textContent = `UPDATED ${x}`
+}
+*/
+
+const val1 = document.querySelectorAll('li')
+for (let i = 0; i < val1.length; i++) {
+	val1[i].textContent = `${i + 1} ListItem(${i})`
+}
