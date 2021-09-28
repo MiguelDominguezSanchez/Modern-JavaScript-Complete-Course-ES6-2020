@@ -1415,6 +1415,7 @@ console.log(finder2)
 
 // - 45 JavaScript Loops -
 
+/*
 // for (let x = 0; x <= 15; x++) {
 // 	console.log(x)
 // }
@@ -1440,3 +1441,30 @@ do {
 	console.log(z)
 	z++
 } while (z < 5)
+*/
+
+// - 46 Loop Array Contents -
+
+/*
+const array1 = ['a', 'ab', 'c', 'd', 'e']
+// console.log(array1.length)
+for (let x = 0; x < array1.length; x++) {
+	console.log(array1[x])
+}
+
+array1.forEach(function (ele, index, arr) {
+	console.log(ele)
+	console.log(array1[index])
+	console.log(arr[index])
+})
+
+array1.forEach((ele) => console.log(ele))
+
+// for (ele in array1) {
+// 	console.log(ele)
+// }
+
+for (x in array1) {
+	console.log(array1[x])
+}
+*/
