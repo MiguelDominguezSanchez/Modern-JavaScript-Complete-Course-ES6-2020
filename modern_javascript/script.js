@@ -1692,7 +1692,39 @@ for (let x = 0; x < val.length; x++) {
 }
 */
 
+/*
 const val1 = document.querySelectorAll('li')
 for (let i = 0; i < val1.length; i++) {
 	val1[i].textContent = `${i + 1} ListItem(${i})`
 }
+*/
+
+// - 5 JavaScript Manipulation InnerContent -
+
+/*
+console.log((document.querySelector('button').textContent = 'NEW VALUE'))
+
+console.log((document.querySelector('button').innerText = 'NEW'))
+
+document.querySelector('button').innerHTML = 'TEST<BR>TEST'
+*/
+
+// const lisItems = document.querySelectorAll('li')
+// console.log(lisItems)
+// lisItems.forEach(function (ele, index, list) {
+// 	console.log(ele)
+// 	console.log(index)
+// 	console.log(list)
+// })
+
+/*
+const lisItems = document.querySelectorAll('li')
+console.log(lisItems)
+lisItems.forEach((ele, index, list) => {
+	console.log(ele)
+	let temp = ele.textContent
+	ele.innerHTML = `<a href='#'>${temp}</a>`
+	// console.log(index)
+	// console.log(list)
+})
+*/
