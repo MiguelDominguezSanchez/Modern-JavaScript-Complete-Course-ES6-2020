@@ -1728,3 +1728,21 @@ lisItems.forEach((ele, index, list) => {
 	// console.log(list)
 })
 */
+
+// - 6 Element Attributes -
+
+/*
+const listItems = document.querySelectorAll('li')
+console.log(listItems)
+listItems.forEach((ele, ind) => {
+	let temp = ele.getAttribute('class')
+	ele.setAttribute('id', 'listItem' + (ind + 1))
+	if (!temp) {
+		ele.setAttribute('class', 'listy')
+	} else {
+		ele.textContent += ` has class of highlight`
+	}
+})
+const highlight = document.querySelectorAll('.highlight')
+console.log(highlight)
+*/
