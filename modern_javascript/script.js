@@ -1468,3 +1468,14 @@ for (x in array1) {
 	console.log(array1[x])
 }
 */
+
+// - 47 Loop Object Contents -
+
+/*
+const myObj = { first: 'Laurence', last: 'Svekis', age: 30 }
+
+for (let prop in myObj) {
+	console.log(prop)
+	console.log(myObj[prop])
+}
+*/
