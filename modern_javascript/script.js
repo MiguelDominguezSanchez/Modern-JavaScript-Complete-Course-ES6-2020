@@ -1360,6 +1360,7 @@ document.getElementById('message').innerHTML = people.toString()
 
 // - 44 Array Methods Advanced -
 
+/*
 // const people = ['Laurence', 'John', 'Linda', 'Joe']
 // const people1 = people.sort()
 // people.reverse()
@@ -1410,3 +1411,32 @@ console.log(finder)
 
 const finder2 = people.lastIndexOf('Laurence')
 console.log(finder2)
+*/
+
+// - 45 JavaScript Loops -
+
+// for (let x = 0; x <= 15; x++) {
+// 	console.log(x)
+// }
+
+// let y = 0
+// while (y < 10) {
+// 	y++
+// 	console.log(y)
+// }
+
+for (let x = 0; x < 5; x++) {
+	console.log(x)
+}
+
+let y = 0
+while (y < 5) {
+	console.log(y)
+	y++
+}
+
+let z = 0
+do {
+	console.log(z)
+	z++
+} while (z < 5)
