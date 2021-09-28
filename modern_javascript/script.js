@@ -1287,6 +1287,7 @@ console.log(typeof people)
 
 // - 42 Array Methods JavaScript -
 
+/*
 const people = ['Laurence', 'John', 'Linda', 'Joe']
 const last = people.pop()
 people.push('Jane')
@@ -1304,3 +1305,55 @@ console.log(people)
 console.log(two)
 people[2] = 'Mike'
 console.log(two)
+*/
+
+// - 43 Array Methods Part 2 -
+
+/*
+// const people = ['Laurence', 'John', 'Linda', 'Joe']
+// people.splice(2, 0)
+// console.log(people)
+
+// const people = ['Laurence', 'John', 'Linda', 'Joe']
+// people.splice(2, 1)
+// console.log(people)
+
+// const people = ['Laurence', 'John', 'Linda', 'Joe']
+// const val1 = people.splice(2, 1)
+// console.log(people)
+// console.log(val1)
+
+// const people = ['Laurence', 'John', 'Linda', 'Joe']
+// const val1 = people.splice(2, 2)
+// console.log(people)
+// console.log(val1[0])
+// console.log(val1)
+
+const people = ['Laurence', 'John', 'Linda', 'Joe']
+const val1 = people.splice(2, 1, 'Jane', 'Larry', 'Dave')
+console.log(people)
+console.log(val1[0])
+console.log(val1)
+const val2 = people.splice(0, 1)
+console.log(val2)
+// const people1 = people.cosncat(val2)
+const people1 = people.concat(val2, val1, val1, val1)
+console.log(people1)
+
+// const people2 = people.slice(0)
+// console.log(people2)
+
+// const people2 = people.slice(3)
+// console.log(people2)
+// console.log(people)
+// console.log(people2)
+
+const people2 = people.slice(2, 4)
+console.log(people2)
+console.log(people)
+
+const people3 = people.toString()
+console.log(people3)
+
+document.getElementById('message').innerHTML = people.toString()
+*/
