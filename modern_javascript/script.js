@@ -1357,3 +1357,56 @@ console.log(people3)
 
 document.getElementById('message').innerHTML = people.toString()
 */
+
+// - 44 Array Methods Advanced -
+
+// const people = ['Laurence', 'John', 'Linda', 'Joe']
+// const people1 = people.sort()
+// people.reverse()
+// console.log(people1)
+
+// people1[2] = 'TEST'
+
+// console.log(people)
+
+const people = [
+	'1',
+	'2',
+	'34',
+	'234243',
+	'54',
+	'45',
+	'45',
+	'46545',
+	'Laurence',
+	'John',
+	'Linda',
+	'Joe',
+]
+const people1 = people.sort()
+people.reverse()
+console.log(people1)
+// console.log(people.sort())
+// people.sort(function (a, b) {
+// 	return a - b // b-a reverse numbers
+// })
+people.sort((a, b) => a - b)
+console.log(people)
+// console.log(people.sort())
+console.log(people)
+const people2 = people.filter((ele) => Number(ele))
+console.log(people2)
+// const people3 = people.filter((ele) => !Number(ele))
+// const people3 = people.filter((ele) => ele.length > 5)
+// console.log(people3)
+const people3 = people.filter((ele) => ele.length > 3)
+console.log(people3)
+
+const first = people.indexOf('Laurence')
+console.log(first)
+
+const finder = people.includes('Laurence')
+console.log(finder)
+
+const finder2 = people.lastIndexOf('Laurence')
+console.log(finder2)
