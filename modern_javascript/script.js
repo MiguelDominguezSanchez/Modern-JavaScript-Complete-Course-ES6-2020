@@ -1618,3 +1618,7 @@ let myDate = `${months[month]} ${day} ${year}`
 document.getElementById('message').innerHTML = myDate
 future.getFullYear
 */
+
+// - JavaScript DOM Introduction -
+
+// - 1 Welcome to JavaScript DOM -
