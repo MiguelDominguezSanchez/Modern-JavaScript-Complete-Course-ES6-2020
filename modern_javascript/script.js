@@ -1059,7 +1059,7 @@ console.log(val)
 })('Laurence')
 */
 
-// - 34 Arrow Functions JavaScript -s
+// - 34 Arrow Functions JavaScript -
 
 /*
 var test1 = function (x) {
@@ -1262,6 +1262,7 @@ document.getElementById('message').innerHTML = `${person[2]} ${person[3]}`
 
 // - 41 Values in the Array -
 
+/*
 const people = ['Mike', 'John', 'Laurence']
 const people1 = people
 console.log(people)
@@ -1282,3 +1283,24 @@ console.log(people)
 console.log(people2)
 
 console.log(typeof people)
+*/
+
+// - 42 Array Methods JavaScript -
+
+const people = ['Laurence', 'John', 'Linda', 'Joe']
+const last = people.pop()
+people.push('Jane')
+const first = people.shift()
+const two = people[1]
+people.unshift('Mike')
+console.log(people)
+console.log(last)
+console.log((people[50] = 'TEST'))
+console.log(people)
+people.push('TEST2')
+console.log(people)
+console.log(first)
+console.log(people)
+console.log(two)
+people[2] = 'Mike'
+console.log(two)
