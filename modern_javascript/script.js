@@ -1479,3 +1479,18 @@ for (let prop in myObj) {
 	console.log(myObj[prop])
 }
 */
+
+// - 48 JavaScript Map -
+
+/*
+const myArr = [
+	1, 4, 5, 6, 5665, 443, 344, 4343, 434343, 4343335776, 45434, 23, 23,
+]
+const myArr1 = myArr.map(function (ele) {
+	console.log(ele)
+	return ele > 100
+})
+console.log(myArr1)
+const myArr2 = myArr.map((ele) => ele * 2)
+console.log(myArr2)
+*/
