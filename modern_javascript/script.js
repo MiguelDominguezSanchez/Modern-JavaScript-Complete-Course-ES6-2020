@@ -1824,6 +1824,7 @@ const firstChild = ul.firstElementChild
 // console.log(val1)
 */
 
+/*
 // Laurence's exercise solution
 
 const ul = document.querySelector('ul')
@@ -1835,3 +1836,22 @@ first.textContent = 'FIRST'
 last.textContent = 'LAST'
 first.classList.add('red')
 last.classList.add('blue')
+*/
+
+// - 10 More Traversing -
+
+/*
+const li = document.querySelector('li')
+console.log(li.childNodes)
+console.log(li.children)
+console.log(li.parentElement)
+console.log(li.parentNode)
+console.log(li.previousElementSibling)
+console.log(li.previous)
+*/
+/*
+console.log(ul.nextElementSibling)
+console.log(ul.nextElementSibling)
+console.log(ul.previousElementSibling)
+console.log(ul.previousSibling)
+*/
