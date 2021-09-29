@@ -1748,7 +1748,7 @@ console.log(highlight)
 */
 
 // - 7 Attribute Updates -
-
+/*
 const val = 'https://dummyimage.com/600x400/f2ff00/0011ff&text='
 const imgs = document.querySelectorAll('img')
 imgs.forEach((ele) => {
@@ -1765,3 +1765,25 @@ urls.forEach((ele) => {
 	ele.setAttribute('href', 'httP://www.discoveryvip.com')
 	ele.setAttribute('target', '_blank')
 })
+*/
+// - 8 JavaScript and Classes -
+
+const headingEle = document.querySelector('h1')
+console.log(headingEle)
+headingEle.classList.add('red')
+const highlight = document.querySelectorAll('.highlight')
+highlight.forEach((el, ind) => {
+	console.log(el)
+	el.classList.add('red', 'blue', 'temp')
+	el.classList.toggle('red', ind < 3)
+	console.log(el.classList.contains('red'))
+	el.classList.remove('blue', 'temp')
+	// el.classList.replace('highlight', 'red')
+})
+// headingEle.classList.toggle('red')
+// headingEle.classList.toggle('red')
+// headingEle.classList.toggle('blue')
+// headingEle.classList.toggle('red')
+
+// highlight[1].classList.toggle('red')
+// highlight[1].classList.toggle('red')
