@@ -1855,3 +1855,38 @@ console.log(ul.nextElementSibling)
 console.log(ul.previousElementSibling)
 console.log(ul.previousSibling)
 */
+
+// - 11 Element Manipulation Styles -
+
+const message = document.querySelector('#message')
+console.log(message)
+message.style.textAlign = 'center'
+message.style.color = 'red'
+message.style.backgroundColor = 'black'
+message.style.fontSize = '2em'
+message.style.borderBottom = '5px dotted purple'
+
+/*
+Exercise:
+The objective is to update the element that have a class of highlight, and  apply a yellow background.
+And also a font–weight of bold to it
+*/
+
+/*
+// my exercise attempt
+
+const highlights = document.getElementsByClassName('.highlights')
+console.log(highlights)
+highlights.style.backgroundColor = 'black'
+*/
+
+/*
+Laurence's solution
+const highlights = document.querySelectorAll('.highlight')
+console.log(highlights)
+highlights.forEach((el) => {
+	console.log(el)
+	el.style.backgroundColor = '#ffff00'
+	el.style.fontWeight = 'bold'
+})
+*/
