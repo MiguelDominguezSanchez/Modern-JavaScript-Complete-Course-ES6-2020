@@ -1768,6 +1768,7 @@ urls.forEach((ele) => {
 */
 // - 8 JavaScript and Classes -
 
+/*
 const headingEle = document.querySelector('h1')
 console.log(headingEle)
 headingEle.classList.add('red')
@@ -1787,3 +1788,50 @@ highlight.forEach((el, ind) => {
 
 // highlight[1].classList.toggle('red')
 // highlight[1].classList.toggle('red')
+*/
+
+// - 9 Element Children and Traversing -
+/*
+const ul = document.querySelector('ul')
+console.log(ul)
+console.log(ul.children)
+const val1 = ul.children
+const val2 = ul.childNodes
+console.log(val1)
+console.log(val2)
+val2.forEach((el) => {
+	console.log(el)
+})
+for (let x = 0; x < val1.length; x++) {
+	let el = val1[x]
+	console.log(val1[x])
+}
+console.log(ul.childElementCount)
+console.log(ul.firstElementChild)
+console.log(ul.lastElementChild)
+*/
+/*
+challenge: Update the content of the first element within unordered list, to say first. Also apply a class to it, in  this case apply red. ANd then also take the last element, adding the text value of last, for the content, and apply the class of blue to it
+*/
+/*
+My exercise Attempt
+const ul = document.querySelector('ul')
+const firstChild = ul.firstElementChild
+// console.log(firstChild)
+// console.log(firstChild)
+
+// const val1 = document.getElementsByTagName(ul.firstElementChild)
+// console.log(val1)
+*/
+
+// Laurence's exercise solution
+
+const ul = document.querySelector('ul')
+
+const first = ul.firstElementChild
+const last = ul.lastElementChild
+
+first.textContent = 'FIRST'
+last.textContent = 'LAST'
+first.classList.add('red')
+last.classList.add('blue')
